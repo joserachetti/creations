@@ -76,7 +76,7 @@ footer {
 }
 
 footer img {
-    width: 7%;
+    width: 5%;
     border: 2px solid white;
     border-radius: 100px;
     margin: 10px;
@@ -84,4 +84,14 @@ footer img {
 
 footer .spects {
     flex-direction: column;
+}
+
+.spects h1 {
+    font-size: 150%;
+}
+
+@media screen and (max-width:700px) {
+    footer img {
+        width: 50px;
+    }
 }
